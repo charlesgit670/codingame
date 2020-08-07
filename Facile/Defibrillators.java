@@ -27,7 +27,7 @@ class Solution {
         double min = Double.MAX_VALUE; //stock la distance la plus petite
         String adress = ""; //stock de l'adresse du défibrillateur
             
-        for (int i = 1; i < N; i++) {
+        for (int i = 0; i < N; i++) {
             String DEFIB = in.nextLine();//description du défibrillateur
             String[] split = DEFIB.split(";",-1);//on split chaque partie séparé par ";"
             String lon = split[4];//on récupère la longitude du défibrillateur
