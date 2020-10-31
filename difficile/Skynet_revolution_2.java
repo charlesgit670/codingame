@@ -53,7 +53,7 @@ class Player {
             System.err.println("Positon actuelle : "+SI);
             System.err.println("\n========================");
 
-            int[] rank = ranked(N, sortie, lien); //permet de calculer la dengerosité des noeuds à chaque tour
+            int[] rank = ranked(N, sortie, lien); //permet de calculer la dangerosité des noeuds à chaque tour
             System.err.println("ranked : ");
             for(int i : rank){
                 System.err.print(i+" ");
